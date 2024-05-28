@@ -1,0 +1,161 @@
+@media only screen and (max-width : 1024px) {
+	/*******************************************************
+    ********************* Header
+    *******************************************************/
+    .header{
+        width: 100%;
+    }
+    /*******************************************************
+    ********************* MENU
+    *******************************************************/
+    .main-menu{
+        width: 100%;
+    }
+    .main-menu ul li a{
+        font-size: 4em;
+    }
+    /*******************************************************
+    ********************* ROADMAP
+    *******************************************************/
+    .roadmap-track{
+        padding: 0;
+        padding: 0 30px 0 80px;
+        width: 100%;
+    }
+    .roadmap-item-media{
+        width: 50%;
+        position: initial;
+        margin-bottom: 50px;
+    }
+    .roadmap-track::before{
+        left: -50px;
+    }
+    /*******************************************************
+    ********************* FOOTER
+    *******************************************************/
+
+    .footer-social{
+        width: 100%;
+        display: block;
+    }
+
+}
+/* Smartphones */
+@media only screen and (max-width : 768px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    /*******************************************************
+    ********************* MENU
+    *******************************************************/
+    .main-menu{
+        width: 100%;
+    }
+    .main-menu ul li a{
+        font-size: 3em;
+    }
+    /*******************************************************
+    ********************* INTRO
+    *******************************************************/
+    .intro-title{
+        font-size: 5em;
+    }
+    /*******************************************************
+    ********************* HERO
+    *******************************************************/
+    .hero-section{
+        font-size: 4em;
+    }
+    /*******************************************************
+    ********************* ROADMAP
+    *******************************************************/
+    .roadmap-track{
+        padding: 0;
+        padding: 0 30px;
+        width: 100%;
+    }
+    .roadmap-track::before{
+        display: none;
+    }
+    .roadmap-item{
+        width: 100%;
+    }
+    .roadmap-item-media{
+        width: 70%;
+        position: initial;
+        margin-bottom: 30px;
+    }
+    /*******************************************************
+    ********************* COLLECTION
+    *******************************************************/
+    .testy-def img{
+        width: 100%;
+        height: auto;
+    }
+    .testy-def p{
+        font-size: 1.7em;
+    }
+    .tt-card{
+        width: 50%;
+    }
+    .tt-card:nth-child(odd){
+        transform: rotate(-5deg);
+    }
+    .tt-card:nth-child(even){
+        transform: rotate(3deg);
+    }
+    /*******************************************************
+    ********************* TEAM
+    *******************************************************/
+    .team-member{
+        width: 100%;
+    }
+    /*******************************************************
+    ********************* FAQ
+    *******************************************************/
+    .question h3{
+        font-size: 1.2em;
+    }
+    /*******************************************************
+    ********************* SECTION
+    *******************************************************/
+    .section-title{
+        font-size: 4.3em;
+        margin-bottom: 60px;
+    }
+    /*******************************************************
+    ********************* FOOTER
+    *******************************************************/
+    .footer{
+        text-align: center;
+    }
+    .footer-social{
+        width: 100%;
+        display: block;
+    }
+    .footer-btn{
+        display: block;
+        font-size: 1.7em;
+        flex-shrink: 0;
+        width: 100%;
+    }
+    .footer-info{
+        display: block;
+        width: 100%;
+    }
+    .footer-links{
+        display: block;
+        text-align: center;
+    }
+    .footer-links li{
+        margin: 0 0 20px 0;
+    }
+    .footer-info p{
+        margin-bottom: 30px;
+    }
+}
+/* Smartphones */
+@media only screen and (max-width : 480px) {
+	
+}
